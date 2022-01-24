@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  font-size: 2rem;
+}
+ul li {
+  color: #6b1a0f;
+  list-style-type: none;
+  padding: 0 20px;
+}
+ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-wrap {
+  display: flex;
+  position: relative;
+}
+
+.bottom-line {
+  position: absolute;
+  bottom: -5px;
+  width: auto;
+  border-bottom: 6px solid salmon;
+  transition: all 1s;
+  border-radius: 15px;
+}/*# sourceMappingURL=style.css.map */
